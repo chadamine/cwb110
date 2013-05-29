@@ -1,0 +1,106 @@
+<!--
+	XHTML opening HTML tags
+		<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+		<!DOCTYPE html PUBLIC "_//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml/DTD/xhtml11-strict.dtd">
+		<html xmlns="http://www.w3.org/1999/xhtml">
+-->
+<html>
+	<!-- The following is the document content: content of entire document including all other elements
+	-->
+	<head>
+		<h1 id="mainhead">Heading 1</h1>
+		<!-- header above contains id attribute with value "mainhead" -->
+
+		<h2 style="text-align: center"; style="color: red">Heading2 - uses style attribute (style="rules") for alignment and color</h2>
+		<h2 align="center">this heading uses the align="center" presentational attribute (deprecated)</h2>
+		<!-- header above uses style attribue with text-align style rule: value center(right|left|justify), color style rule: value red		 -->
+
+		<title>Web Page title text goes in the title, which is in the head section</title>
+	</head>
+	<body>
+		<p>body content
+		is always placed after the head element. Also, no other elements can be placed between the html, head and body elements
+		</p>
+		
+	<blockquote>blockquote</blockquote>
+	
+	<div>div - mark generic block-level element</div>
+
+	<dir>dir - multicolumn directory list (deprecated)</dir>
+
+	<center>center - text horizontally centered with the block (deprecated)</center>
+
+	<menu>menu - single column menu list (deprecated)</menu>
+
+	<h3 id="inlineElements">Inline Elements</h3>
+	
+	<ul>	
+		<li><abbr>abbr - an abbreviation</abbr>
+		<li><acronym>acronym - an acronym</acronym></li>
+		<li><b>b - boldfaced text</b></li>
+		<li><big>big - big text</big></li>
+		<li><cite>cite - citation (italicized)</cite></li>
+		<li><code>code - program code (fixed width text)</code></li>
+		<li><del>del - deleted text (strikethrough)</del></li>
+		<li><dfn>dfn - a definition term (italicized)</dfn></li>
+		<li><em>em - emphasized text(italicized)</em></li>
+		<li><i>i - italicized text</i></li>
+		<li><ins>ins - inserted text (underlined)</ins></li>
+		<li><kbd>kbd - keboard-style text (fixed width text)</kbd></li>
+		<li><q>q - quoted text</q></li>
+		<li><s id="strike">s - strikethrough text (deprecated)</s></li>
+		<li><samp>samp - sample computer code (fixed width text)</samp></li>
+		<li><small>small - small text</small></li>
+		<li><span>span - a generic inline element (plain text)</span></li>
+		<li><strike>strike - strikethrough text (deprecated)</strike></li>
+		<li><strong id="strong">strong - strongly emphasized text (boldfaced)</strong></li>
+		<li>sub - <sub>subscripted</sub>text</li>
+		<li>sup - <sup>superscripted</sup>text</li>
+		<li><tt>tt - teletype text (fixed width)</tt></li>
+		<li><u>u - underlined (deprecated)</u></li>
+
+				<li><var>programming variables (italicized)</var></li>
+	</ul>
+
+	<h3 id="emptyElement">Empty elements with one sided tags</h3>
+
+	<div>The following is a horizontal rule (hr) empty element with one-sided tag</div>
+	<hr />
+
+	<p>New paragraph with<br />line break
+	<!-- line break (empty element with one-sided tag) - must be placed in block-level element (XHTML spec) -->
+	</p>
+
+	<h3>Lists</h3>
+
+	<ol>
+		<li>Ordered List Item 1</li>
+		<li>Ordered List Item 2</li>
+	</ol>
+
+	<ul>
+		<li>Unordered List item1</li>
+		<ul>
+			<li>Nested unordered list item 1</li>
+			<li>Nested unordered list item 2</li>
+		</ul>
+		<li>Unordered list item2</li>
+		<ol>
+			<li>Nested ordered list item 1</li>
+			<li>Nested ordered list item 2</li>
+		</ol>
+	</ul>
+	
+	<address>Address - Identity, Address, City, ST, Zip, Phone</address>
+
+	<dl>
+		<dt>definition list: term 1</dt>
+		<dd>description 1</dd>
+		<dt>term 2</dt>
+		<dd>descriiption 2</dd>
+	</dl>
+
+	<p>To display special characters like &gt; and &lt; or &#169; or &copy; you use &amp; followed by either #code or a character entity reference (gt, lt, copy, etc.) ending with a&nbsp;;</p>
+
+	</body>
+</html>
